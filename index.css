@@ -167,6 +167,7 @@
   letter-spacing:6px;
 }
 .hidden{
+ 
   display: none;
   transition-duration:1.5s;
   transition-timing-function: ease;
