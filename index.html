@@ -10,31 +10,51 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <picture>
-    <img src="images/drawers.jpg" alt="drawer-image">
-  </picture>
+  <main class="container">
+    
+      <picture>
+        <img class="hero-image" src="images/drawers.jpg" alt="drawer-image">
+      </picture>
+      <article class="container__content">
+      <h2 class="article__heading">Shift the overall look and feel by adding these wonderful 
+      touches to furniture in your home</h2>
 
-  <h1>Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home</h1>
+        <p class="article__paragraph">Ever been in a room and felt like something was missing? Perhaps 
+        it felt slightly bare and uninviting. I’ve got some simple tips 
+        to help you make any room feel complete.</p>
 
- <p>Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.</p>
-  <div class="flex-group">
-  <picture>
-  <div class="avater-group">
-    <img class="image" src="images/avatar-michelle.jpg" alt="">
-  </picture>
-  <h3>Michelle Appleton</h3>
-  <p>28 Jun 2020</p>
-</div>
-  <P>Share</P>
-  
-  </div> 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <div class="flex-group">
+          <div class="avatar-group flex-avatar-group">
+            <picture>
+              <img class="avatar__image" src="images/avatar-michelle.jpg" alt="Michelle" width="60px">
+            </picture>
+            <div class="avatar-info">
+             <h3 class="avatar-info__heading">Michelle Appleton</h3>
+              <p class="avatar-info__paragraph">28 Jun 2020</p>
+            </div>
+            </div>
+          
+       
+      <div class="icon-box" id="icon-box" >
+        <span class="share__text">SHARE</span>
+        <img src="images/icon-facebook.svg" alt="icon-facebook">
+        <img src="images/icon-pinterest.svg" alt="icon-pinterest">
+        <img src="images/icon-twitter.svg" alt="icon-twitter">
+      </div>
+      <picture>
+        <img id="share-icon" class="share__btn" src="images/icon-share.svg" alt="share-icon">
+      </picture>
+      
+    </div>
+  </article>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
   <script src="index.js"></script>
 </body>
 </html>
